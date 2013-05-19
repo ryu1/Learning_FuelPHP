@@ -223,3 +223,53 @@ ERROR - 2013-05-19 19:57:45 --> Error - Package 'log' could not be found at 'PKG
 ERROR - 2013-05-19 20:37:34 --> Error - Package 'log' could not be found at 'PKGPATH/log/' in /Users/ryu/Projects/github/Learning_FuelPHP/fuel/core/classes/package.php on line 89
 ERROR - 2013-05-19 20:37:35 --> Error - Package 'log' could not be found at 'PKGPATH/log/' in /Users/ryu/Projects/github/Learning_FuelPHP/fuel/core/classes/package.php on line 89
 ERROR - 2013-05-19 20:37:37 --> Error - Package 'log' could not be found at 'PKGPATH/log/' in /Users/ryu/Projects/github/Learning_FuelPHP/fuel/core/classes/package.php on line 89
+DEBUG - 2013-05-19 21:21:23 --> Notice - Position larger than number of elements in array in which to insert. in /Users/ryu/Projects/github/Learning_FuelPHP/fuel/core/tests/arr.php on line 350
+DEBUG - 2013-05-19 21:21:23 --> Notice - Unknown key after which to insert the new value into the array. in /Users/ryu/Projects/github/Learning_FuelPHP/fuel/core/tests/arr.php on line 379
+DEBUG - 2013-05-19 21:21:23 --> Notice - Unknown value after which to insert the new value into the array. in /Users/ryu/Projects/github/Learning_FuelPHP/fuel/core/tests/arr.php on line 405
+INFO - 2013-05-19 21:21:24 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:24 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:24 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index/5"
+INFO - 2013-05-19 21:21:24 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:24 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index/3"
+INFO - 2013-05-19 21:21:24 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:24 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index/3"
+INFO - 2013-05-19 21:21:24 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:24 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:24 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:24 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index/4"
+INFO - 2013-05-19 21:21:24 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:24 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index/6"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index/11"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index/10"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index/10"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index/10"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index/55?foo=bar&fuel[]=php1&fuel[]=php2&"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index/?foo=bar&fuel[]=php1&fuel[]=php2&"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = ""
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = ""
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = ""
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = ""
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index/?foo=bar&fuel[]=php1&fuel[]=php2&p=40"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index/?foo=bar&fuel[]=php1&fuel[]=php2&p=40"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index/?foo=bar&fuel[]=php1&fuel[]=php2&p=40"
+INFO - 2013-05-19 21:21:25 --> Fuel\Core\Request::__construct - Creating a new Request with URI = "welcome/index"
+DEBUG - 2013-05-19 21:21:25 --> Notice - Invalid rule "" passed to Validation, not used. in /Users/ryu/Projects/github/Learning_FuelPHP/fuel/core/classes/validation.php on line 471
+DEBUG - 2013-05-19 21:21:25 --> Notice - Invalid rule "" passed to Validation, not used. in /Users/ryu/Projects/github/Learning_FuelPHP/fuel/core/classes/validation.php on line 471
+DEBUG - 2013-05-19 21:21:25 --> Notice - Invalid rule "" passed to Validation, not used. in /Users/ryu/Projects/github/Learning_FuelPHP/fuel/core/classes/validation.php on line 471
+DEBUG - 2013-05-19 21:21:25 --> Notice - Invalid rule "" passed to Validation, not used. in /Users/ryu/Projects/github/Learning_FuelPHP/fuel/core/classes/validation.php on line 471
