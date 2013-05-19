@@ -37,10 +37,10 @@ class Controller_SampleRouter extends \Fuel\Core\Controller
 	}
 
 	/**
-	 * test
+	 * @param $params
 	 * @return string
 	 */
-	public function action_test()
+	public function action_test($params)
 	{
 		$output = $this->current_user . 'さん、';
 		$output .= __METHOD__ . 'が実行されました。<br />';
