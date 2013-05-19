@@ -220,3 +220,6 @@ ERROR - 2013-05-19 19:55:23 --> Error - Package 'log' could not be found at 'PKG
 ERROR - 2013-05-19 19:56:48 --> Error - Package 'log' could not be found at 'PKGPATH/log/' in /Users/ryu/Projects/github/Learning_FuelPHP/fuel/core/classes/package.php on line 89
 ERROR - 2013-05-19 19:57:39 --> Error - Package 'log' could not be found at 'PKGPATH/log/' in /Users/ryu/Projects/github/Learning_FuelPHP/fuel/core/classes/package.php on line 89
 ERROR - 2013-05-19 19:57:45 --> Error - Package 'log' could not be found at 'PKGPATH/log/' in /Users/ryu/Projects/github/Learning_FuelPHP/fuel/core/classes/package.php on line 89
+ERROR - 2013-05-19 20:37:34 --> Error - Package 'log' could not be found at 'PKGPATH/log/' in /Users/ryu/Projects/github/Learning_FuelPHP/fuel/core/classes/package.php on line 89
+ERROR - 2013-05-19 20:37:35 --> Error - Package 'log' could not be found at 'PKGPATH/log/' in /Users/ryu/Projects/github/Learning_FuelPHP/fuel/core/classes/package.php on line 89
+ERROR - 2013-05-19 20:37:37 --> Error - Package 'log' could not be found at 'PKGPATH/log/' in /Users/ryu/Projects/github/Learning_FuelPHP/fuel/core/classes/package.php on line 89
