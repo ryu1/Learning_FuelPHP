@@ -5,6 +5,7 @@
 	<title><?php echo $title; ?></title>
 	</head>
 <body>
+	<h1>お問い合わせ</h1>
 	<div id="wrapper">
 		<?php echo $content; ?>
 		<hr />
