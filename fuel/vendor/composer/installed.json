@@ -129,7 +129,7 @@
                 "Monolog": "src/"
             }
         },
-        "notification-url": "https://packagist.org/downloads/",
+        "notification-url": "http://packagist.org/downloads/",
         "license": [
             "MIT"
         ],
@@ -175,7 +175,7 @@
                 "Text/"
             ]
         },
-        "notification-url": "https://packagist.org/downloads/",
+        "notification-url": "http://packagist.org/downloads/",
         "include-path": [
             ""
         ],
@@ -222,7 +222,7 @@
                 "PHP/"
             ]
         },
-        "notification-url": "https://packagist.org/downloads/",
+        "notification-url": "http://packagist.org/downloads/",
         "include-path": [
             ""
         ],
@@ -268,7 +268,7 @@
                 "File/"
             ]
         },
-        "notification-url": "https://packagist.org/downloads/",
+        "notification-url": "http://packagist.org/downloads/",
         "include-path": [
             ""
         ],
@@ -325,7 +325,7 @@
                 "PHP/"
             ]
         },
-        "notification-url": "https://packagist.org/downloads/",
+        "notification-url": "http://packagist.org/downloads/",
         "include-path": [
             ""
         ],
@@ -379,7 +379,7 @@
                 "Symfony\\Component\\Yaml\\": ""
             }
         },
-        "notification-url": "https://packagist.org/downloads/",
+        "notification-url": "http://packagist.org/downloads/",
         "license": [
             "MIT"
         ],
@@ -422,7 +422,7 @@
                 "PHP/"
             ]
         },
-        "notification-url": "https://packagist.org/downloads/",
+        "notification-url": "http://packagist.org/downloads/",
         "include-path": [
             ""
         ],
@@ -472,7 +472,7 @@
                 "PHPUnit/"
             ]
         },
-        "notification-url": "https://packagist.org/downloads/",
+        "notification-url": "http://packagist.org/downloads/",
         "include-path": [
             ""
         ],
@@ -546,7 +546,7 @@
                 "PHPUnit/"
             ]
         },
-        "notification-url": "https://packagist.org/downloads/",
+        "notification-url": "http://packagist.org/downloads/",
         "include-path": [
             "",
             "../../symfony/yaml/"
@@ -601,7 +601,7 @@
                 "Symfony\\Component\\Process\\": ""
             }
         },
-        "notification-url": "https://packagist.org/downloads/",
+        "notification-url": "http://packagist.org/downloads/",
         "license": [
             "MIT"
         ],
@@ -659,7 +659,7 @@
                 "Symfony\\Component\\DependencyInjection\\": ""
             }
         },
-        "notification-url": "https://packagist.org/downloads/",
+        "notification-url": "http://packagist.org/downloads/",
         "license": [
             "MIT"
         ],
@@ -709,7 +709,7 @@
                 "Stagehand\\ComponentFactory": "src/"
             }
         },
-        "notification-url": "https://packagist.org/downloads/",
+        "notification-url": "http://packagist.org/downloads/",
         "license": [
             "BSD-2"
         ],
@@ -757,7 +757,7 @@
                 "Symfony\\Component\\Finder\\": ""
             }
         },
-        "notification-url": "https://packagist.org/downloads/",
+        "notification-url": "http://packagist.org/downloads/",
         "license": [
             "MIT"
         ],
@@ -806,7 +806,7 @@
                 "Stagehand\\AlterationMonitor": "src/"
             }
         },
-        "notification-url": "https://packagist.org/downloads/",
+        "notification-url": "http://packagist.org/downloads/",
         "license": [
             "BSD-2"
         ],
@@ -830,12 +830,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/Console.git",
-            "reference": "c53f2a94430f1958c115cfa29c2da9867a5a6946"
+            "reference": "45c1953fee4034f8fc92bc2029b124ed9ffb34db"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/Console/zipball/c53f2a94430f1958c115cfa29c2da9867a5a6946",
-            "reference": "c53f2a94430f1958c115cfa29c2da9867a5a6946",
+            "url": "https://api.github.com/repos/symfony/Console/zipball/45c1953fee4034f8fc92bc2029b124ed9ffb34db",
+            "reference": "45c1953fee4034f8fc92bc2029b124ed9ffb34db",
             "shasum": ""
         },
         "require": {
@@ -847,7 +847,7 @@
         "suggest": {
             "symfony/event-dispatcher": ""
         },
-        "time": "2013-05-16 07:54:39",
+        "time": "2013-05-19 19:03:23",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -860,7 +860,7 @@
                 "Symfony\\Component\\Console\\": ""
             }
         },
-        "notification-url": "https://packagist.org/downloads/",
+        "notification-url": "http://packagist.org/downloads/",
         "license": [
             "MIT"
         ],
@@ -909,7 +909,7 @@
                 "Symfony\\Component\\Filesystem\\": ""
             }
         },
-        "notification-url": "https://packagist.org/downloads/",
+        "notification-url": "http://packagist.org/downloads/",
         "license": [
             "MIT"
         ],
@@ -959,7 +959,7 @@
                 "Symfony\\Component\\Config\\": ""
             }
         },
-        "notification-url": "https://packagist.org/downloads/",
+        "notification-url": "http://packagist.org/downloads/",
         "license": [
             "MIT"
         ],
@@ -1011,7 +1011,7 @@
                 "Symfony\\Component\\ClassLoader\\": ""
             }
         },
-        "notification-url": "https://packagist.org/downloads/",
+        "notification-url": "http://packagist.org/downloads/",
         "license": [
             "MIT"
         ],
@@ -1078,7 +1078,7 @@
                 "Stagehand\\TestRunner": "src/"
             }
         },
-        "notification-url": "https://packagist.org/downloads/",
+        "notification-url": "http://packagist.org/downloads/",
         "license": [
             "BSD-2-Clause"
         ],
