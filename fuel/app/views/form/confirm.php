@@ -1,8 +1,27 @@
+<p>
+	名前:
+	<?php echo $input['name']; ?>
+</p>
+<p>
+	コメント:
+	<?php echo $input['comment']; ?>
+</p>
+
 <?php
-/**
- * Created by IntelliJ IDEA.
- * User: ryu
- * Date: 2013/05/21
- * Time: 0:37
- * To change this template use File | Settings | File Templates.
- */
+echo \Fuel\Core\Form::open('form/');
+echo \Fuel\Core\Form::hidden('name',	$input['name']);
+echo \Fuel\Core\Form::hidden('email',	$input['email']);
+echo \Fuel\Core\Form::hidden('comment',	$input['comment']);
+?>
+
+<div class="actions">
+	<?php echo \Fuel\Core\Form::submit('submit1', '修正'); ?>
+</div>
+<?php echo \Fuel\Core\Form::close(); ?>
+<?php
+echo \Fuel\Core\Form::open('form/send');
+
+// CSRF対策
+echo \Fuel\Core\Form::hidden(Config::get('security.csrf_token_key'), \Fuel\Core\Security::fetch_token());
+
+
