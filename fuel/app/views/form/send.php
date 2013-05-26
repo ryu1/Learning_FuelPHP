@@ -1,8 +1,2 @@
-<?php
-/**
- * Created by IntelliJ IDEA.
- * User: ryu
- * Date: 2013/05/21
- * Time: 0:37
- * To change this template use File | Settings | File Templates.
- */
+<p>送信完了しました。</p>
+<p>お問い合わせ、ありがとうございます。</p>
