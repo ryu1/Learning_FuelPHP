@@ -10,7 +10,8 @@
 		<?php echo $content; ?>
 		<hr />
 		<p class="footer">
-			<?php echo $footer; ?>
+<!--	<?php //echo $footer; ?>		-->
+            Powered by <?php echo \Fuel\Core\Html::anchor('http://fuelphp.com/', 'FuelPHP'); ?>
 		</p>
 	</div>
 </body>

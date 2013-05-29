@@ -80,7 +80,7 @@ class Controller_Form extends \Fuel\Core\Controller_Template
 		{
 			$this->sendmail($data);
 			$this->template->title = 'コンタクトフォーム: 送信完了';
-			$this->template->contact = View::forge('form/send');
+			$this->template->content = View::forge('form/send');
 			return;
 		}
 		catch(EmailValidationFailedException $e)
@@ -130,7 +130,7 @@ END;
 		Package::load('email');
 
 		$email = Email::forge();
-		$email->form($data['form'], $data['form_name']);
+		$email->from($data['from'], $data['from_name']);
 		$email->to($data['to'], $data['to_name']);
 		$email->subject($data['subject']);
 		$email->body($data['body']);
