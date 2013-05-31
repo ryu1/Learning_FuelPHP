@@ -2,6 +2,8 @@
 <?php echo $html_error; ?>
 <?php endif; ?>
 
+<?php echo $html_form; ?>
+<!--
 <?php echo Form::open('form/confirm'); ?>
 <p>
 	<?php echo \Fuel\Core\Form::label('名前', 'name'); ?>(*) :
@@ -22,3 +24,4 @@
 	<?php echo \Fuel\Core\Form::submit('submit', '確認'); ?>
 </div>
 <?php echo \Fuel\Core\Form::close(); ?>
+-->

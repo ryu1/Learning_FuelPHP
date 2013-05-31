@@ -17,4 +17,6 @@ return array(
 	'numeric_between' => 'The field :label must contain a numeric value between :param:1 and :param:2',
 	'valid_string'    => 'The valid string rule :rule(:param:1) failed for field :label',
 	'required_with'   => 'The field :label must contain a value if :param:1 contains a value.',
+    // 独自ルール
+    'no_tab_and_newline' => ':label欄にはタブや改行を含めないようにしてください。',
 );
