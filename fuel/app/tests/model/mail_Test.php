@@ -30,7 +30,7 @@ class Test_Model_Mail extends \Fuel\Core\TestCase
 
         // mail()関数からデータを代入
         $mail_data = \Fuel\Core\Config::get('_tests.mail.data');
-        //var_dump($mail_data);
+//        var_dump($mail_data);
         //exit;
         
         // 管理者 <info@example.jp>

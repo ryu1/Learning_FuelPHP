@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="355435b1-a956-430f-8de4-c96800a89921" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fuel/app/phpunit.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fuel/app/config/config.php" afterPath="$PROJECT_DIR$/fuel/app/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fuel/app/config/db.php" afterPath="$PROJECT_DIR$/fuel/app/config/db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fuel/app/config/development/db.php" afterPath="$PROJECT_DIR$/fuel/app/config/development/db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fuel/app/config/test/db.php" afterPath="$PROJECT_DIR$/fuel/app/config/test/db.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fuel/app/classes/controller/form.php" afterPath="$PROJECT_DIR$/fuel/app/classes/controller/form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fuel/app/views/form/index.php" afterPath="$PROJECT_DIR$/fuel/app/views/form/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fuel/app/classes/myinputfilters.php" afterPath="$PROJECT_DIR$/fuel/app/classes/myinputfilters.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fuel/app/tests/myinputfilters.php" afterPath="$PROJECT_DIR$/fuel/app/tests/myinputfilters.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fuel/app/lang/ja/validation.php" afterPath="$PROJECT_DIR$/fuel/app/lang/ja/validation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fuel/app/tests/model/mail_Test.php" afterPath="$PROJECT_DIR$/fuel/app/tests/model/mail_Test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fuel/app/tests/mock_mail.php" afterPath="$PROJECT_DIR$/fuel/app/tests/mock_mail.php" />
     </list>
     <ignored path="Learning_FuelPHP.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1369973583228" ignored="false" />
+    <file path="/Dummy.txt" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1370103196762" ignored="false" />
     <file path="/welcome.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1368881969450" ignored="false" />
     <file path="/a.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1368882099892" ignored="false" />
     <file path="/hello.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1368958763888" ignored="false" />
@@ -35,7 +32,7 @@
     <file path="/routes.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1368951386930" ignored="false" />
     <file path="/admin.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1368951504181" ignored="false" />
     <file path="/config.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1368953307075" ignored="false" />
-    <file path="/db.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1368953404275" ignored="false" />
+    <file path="/db.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1370104871388" ignored="false" />
     <file path="/showfile.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1368953500929" ignored="false" />
     <file path="/logging.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1368958496583" ignored="false" />
     <file path="/bootstrap_phpunit.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1369047636380" ignored="false" />
@@ -44,7 +41,7 @@
     <file path="/person_test2.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1369049633187" ignored="false" />
     <file path="/person_test3.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1369050084537" ignored="false" />
     <file path="/index.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1369908054413" ignored="false" />
-    <file path="/form.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1369975023384" ignored="false" />
+    <file path="/form.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1370165175022" ignored="false" />
     <file path="/confirm.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1369468679872" ignored="false" />
     <file path="/myinputfilters.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1369879711652" ignored="false" />
     <file path="/httpinvalidinputexception.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1369815099474" ignored="false" />
@@ -53,11 +50,15 @@
     <file path="/myvalidationrules_Test.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1369901279108" ignored="false" />
     <file path="/phpunit.xml" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1369904469089" ignored="false" />
     <file path="/public.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1369912274651" ignored="false" />
-    <file path="/mail.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1369985467743" ignored="false" />
-    <file path="/mock_mail.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1369977150693" ignored="false" />
+    <file path="/mail.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1370186002689" ignored="false" />
+    <file path="/mock_mail.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1370185245958" ignored="false" />
     <file path="/email.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1369976846413" ignored="false" />
     <file path="/mail_Test.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1369984651437" ignored="false" />
     <file path="/contact_form.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1369985159043" ignored="false" />
+    <file path="/dbtestcase.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1370160306903" ignored="false" />
+    <file path="/dbfixture.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1370163432456" ignored="false" />
+    <file path="/form_Test.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1370163501982" ignored="false" />
+    <file path="/smtp.php" changelist="355435b1-a956-430f-8de4-c96800a89921" time="1370186207962" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,12 +67,12 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Learning_FuelPHP$Test_Person.coverage" NAME="Test_Person Coverage Results" MODIFIED="1369050686879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Learning_FuelPHP$Person_Test.coverage" NAME="Person_Test Coverage Results" MODIFIED="1369050478006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Learning_FuelPHP$phpunit_xml.coverage" NAME="phpunit.xml Coverage Results" MODIFIED="1369984548003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Learning_FuelPHP$Person_Test2.coverage" NAME="Person_Test2 Coverage Results" MODIFIED="1369049696416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Learning_FuelPHP$Test_MyInputFilters.coverage" NAME="Test_MyInputFilters Coverage Results" MODIFIED="1369822222013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Learning_FuelPHP$phpunit_xml.coverage" NAME="phpunit.xml Coverage Results" MODIFIED="1369984548003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Learning_FuelPHP$Person3_Test_test_get_gender.coverage" NAME="Person3_Test.test_get_gender Coverage Results" MODIFIED="1369050141501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Learning_FuelPHP$Test_Person.coverage" NAME="Test_Person Coverage Results" MODIFIED="1369050686879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -143,30 +144,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/fuel/app/classes/httpinvalidinputexception.php" />
-        <option value="$PROJECT_DIR$/fuel/app/classes/myinputfilters.php" />
-        <option value="$PROJECT_DIR$/fuel/app/tests/myinputfilters.php" />
-        <option value="$PROJECT_DIR$/fuel/app/config/config.php" />
-        <option value="$PROJECT_DIR$/fuel/app/classes/myvalidationrules.php" />
-        <option value="$PROJECT_DIR$/fuel/app/tests/myvalidationrules_Test.php" />
-        <option value="$PROJECT_DIR$/fuel/app/lang/ja/validation.php" />
-        <option value="$PROJECT_DIR$/fuel/app/phpunit.xml" />
-        <option value="$PROJECT_DIR$/fuel/app/views/form/index.php" />
-        <option value="$PROJECT_DIR$/fuel/app/classes/controller/public.php" />
+        <option value="$PROJECT_DIR$/fuel/app/config/test/migrations.php" />
+        <option value="$PROJECT_DIR$/fuel/app/config/development/db.php" />
+        <option value="$PROJECT_DIR$/fuel/app/config/test/db.php" />
+        <option value="$PROJECT_DIR$/fuel/app/config/db.php" />
+        <option value="$PROJECT_DIR$/fuel/app/classes/model/form.php" />
+        <option value="$PROJECT_DIR$/fuel/app/tests/fixture/form_fixt.yml" />
+        <option value="$PROJECT_DIR$/fuel/app/tests/dbtestcase.php" />
+        <option value="$PROJECT_DIR$/fuel/app/tests/dbfixture.php" />
+        <option value="$PROJECT_DIR$/fuel/app/tests/model/form_Test.php" />
         <option value="$PROJECT_DIR$/fuel/app/classes/controller/form.php" />
-        <option value="$PROJECT_DIR$/fuel/app/config/test/email.php" />
-        <option value="$PROJECT_DIR$/fuel/app/tests/mock_mail.php" />
         <option value="$PROJECT_DIR$/fuel/app/tests/model/mail_Test.php" />
-        <option value="$PROJECT_DIR$/fuel/app/config/contact_form.php" />
-        <option value="$PROJECT_DIR$/fuel/app/classes/model/mail.php" />
+        <option value="$PROJECT_DIR$/fuel/app/tests/mock_mail.php" />
+        <option value="$PROJECT_DIR$/fuel/app/logs/2013/06/03.php" />
+        <option value="$PROJECT_DIR$/fuel/packages/email/classes/email/driver/smtp.php" />
+        <option value="$PROJECT_DIR$/fuel/packages/email/classes/email/driver/mail.php" />
+        <option value="$PROJECT_DIR$/fuel/app/config/email.php" />
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="php5_from_xampp" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="php54" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="40" />
-    <option name="width" value="1440" />
-    <option name="height" value="860" />
+    <option name="width" value="1366" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -261,6 +261,118 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="email" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Learning_FuelPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Learning_FuelPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="email" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Learning_FuelPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Learning_FuelPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="email" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="email" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Learning_FuelPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Learning_FuelPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="email" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="email" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Learning_FuelPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Learning_FuelPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -305,11 +417,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="logs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Learning_FuelPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Learning_FuelPHP" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="fuel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2013" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="06" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -332,6 +470,110 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Learning_FuelPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Learning_FuelPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Learning_FuelPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Learning_FuelPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="staging" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Learning_FuelPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Learning_FuelPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="production" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Learning_FuelPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Learning_FuelPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="development" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -402,19 +644,19 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fuel/app/config/development" />
+      <recent name="$PROJECT_DIR$/fuel/app/config/test" />
       <recent name="C:\Projects\github\Learning_FuelPHP\fuel\app\config\test" />
       <recent name="C:\Projects\github\Learning_FuelPHP\fuel\app" />
       <recent name="C:\Projects\github\Learning_FuelPHP\fuel\app\config" />
-      <recent name="$PROJECT_DIR$/fuel/app/lang/ja" />
-      <recent name="C:\Projects\github\Learning_FuelPHP\fuel\app\classes" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.phpunit.xml">
@@ -479,6 +721,19 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -507,19 +762,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -533,6 +775,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -554,13 +803,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="false" name="Leaning_FuelPHP" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/public" port="8080" router_script="$PROJECT_DIR$/router.php">
@@ -626,14 +868,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="40" width="1440" height="860" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -641,18 +883,18 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.6708229" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6708229" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6708229" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67014927" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985073" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.6708229" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -721,116 +963,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fuel/app/classes/controller/form.php">
+    <entry file="file://$PROJECT_DIR$/fuel/app/tests/model/form_Test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="41" selection-start="895" selection-end="895" vertical-scroll-proportion="-9.269231">
+        <state line="58" column="9" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.697733">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuel/app/phpunit.xml">
+    <entry file="file://$PROJECT_DIR$/fuel/app/config/test/db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="37" selection-start="562" selection-end="591" vertical-scroll-proportion="0.0">
+        <state line="11" column="32" selection-start="337" selection-end="337" vertical-scroll-proportion="0.26448363">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuel/core/config/config.php">
+    <entry file="file://$PROJECT_DIR$/fuel/app/config/staging/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuel/app/tests/myinputfilters.php">
+    <entry file="file://$PROJECT_DIR$/fuel/app/config/development/db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="36" selection-start="1677" selection-end="1677" vertical-scroll-proportion="-15.038462">
+        <state line="10" column="32" selection-start="388" selection-end="388" vertical-scroll-proportion="-5.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuel/app/bootstrap_phpunit.php">
+    <entry file="file://$PROJECT_DIR$/fuel/packages/email/classes/email/driver.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="38" selection-start="301" selection-end="301" vertical-scroll-proportion="-5.230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuel/packages/email/classes/email/driver/noop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuel/app/config/test/email.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="25" selection-end="25" vertical-scroll-proportion="0.034907598">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuel/packages/email/classes/email/driver/mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="9" selection-start="766" selection-end="766" vertical-scroll-proportion="0.5337553">
+        <state line="1148" column="16" selection-start="28968" selection-end="28968" vertical-scroll-proportion="0.20612814">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fuel/packages/email/classes/email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="36" selection-start="658" selection-end="658" vertical-scroll-proportion="-0.22176592">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuel/app/config/test/migrations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fuel/packages/email/classes/email/driver/sendmail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="6" selection-start="304" selection-end="304" vertical-scroll-proportion="0.17453799">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.26448363">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fuel/packages/email/classes/email/driver/smtp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="6" selection-start="305" selection-end="305" vertical-scroll-proportion="0.21518987">
+        <state line="181" column="5" selection-start="4277" selection-end="4277" vertical-scroll-proportion="0.5821727">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuel/app/classes/myinputfilters.php">
+    <entry file="file://$PROJECT_DIR$/fuel/packages/email/classes/email/driver/mail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.4435319">
+        <state line="25" column="5" selection-start="471" selection-end="471" vertical-scroll-proportion="0.5078125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuel/app/tests/model/mail_Test.php">
+    <entry file="file://$PROJECT_DIR$/fuel/app/config/test/email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="10" selection-start="336" selection-end="336" vertical-scroll-proportion="-4.576923">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuel/app/config/email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="28" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.7581864">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuel/app/classes/model/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="17" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.24433249">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fuel/app/tests/mock_mail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="43" selection-start="565" selection-end="565" vertical-scroll-proportion="0.49800265">
-          <folding>
-            <element signature="e#6#159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuel/app/classes/model/mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="39" selection-start="798" selection-end="798" vertical-scroll-proportion="0.6564581">
+        <state line="20" column="32" selection-start="455" selection-end="455" vertical-scroll-proportion="0.47103274">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuel/app/config/contact_form.php">
+    <entry file="file://$PROJECT_DIR$/fuel/app/logs/2013/06/03.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="64" selection-start="155" selection-end="155" vertical-scroll-proportion="0.13581891">
+        <state line="21" column="57" selection-start="2352" selection-end="2352" vertical-scroll-proportion="0.53125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuel/app/tests/model/mail_Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="17" selection-start="533" selection-end="533" vertical-scroll-proportion="-0.037783377">
           <folding />
         </state>
       </provider>

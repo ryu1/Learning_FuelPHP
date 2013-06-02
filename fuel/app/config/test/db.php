@@ -8,9 +8,11 @@
 return array(
 	'default' => array(
 		'connection'  => array(
-			'dsn'        => 'mysql:host=localhost;dbname=fuel_test',
-			'username'   => 'fuel_app',
-			'password'   => 'super_secret_password',
+			'hostname'	=> 'ec2-175-41-209-150.ap-northeast-1.compute.amazonaws.com',
+			'port'		=> '3306',
+			'database'	=> 'fuel_db_test',
+			'username'   => 'ryu',
+			'password'   => 'gozaemon',
 		),
 	),
 );

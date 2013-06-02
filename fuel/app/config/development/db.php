@@ -6,10 +6,12 @@
 return array(
 	'default' => array(
 		'connection'  => array(
-			'dsn'        => 'mysql:host=localhost;dbname=fuel_dev',
-			'username'   => 'root',
-			'password'   => 'root',
-			'profiling'  => true
+//			'dsn'        => 'mysql:host=ec2-175-41-209-150.ap-northeast-1.compute.amazonaws.com;port=3307;dbname=fuel_db_devel;charset=utf-8',
+			'hostname'	=> 'ec2-175-41-209-150.ap-northeast-1.compute.amazonaws.com',
+			'port'		=> '3306',
+			'database'	=> 'fuel_db_devel',
+			'username'   => 'ryu',
+			'password'   => 'gozaemon',
 		),
 	),
 );

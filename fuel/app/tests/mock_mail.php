@@ -10,8 +10,11 @@
 // PHPのmail()関数をオーバーライド
 namespace Email;
 
+use Fuel\Core\Log;
+
 function mail($to, $subject, $message, $additional_headers, $additional_parameters)
 {
+	Log::debug('Call mail', __METHOD__);
     $data = array(
         'to'    => $to,
         'subject'   => $subject,

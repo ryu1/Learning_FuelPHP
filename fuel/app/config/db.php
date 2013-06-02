@@ -6,5 +6,15 @@
  */
 
 return array(
-
+	'default' => array(
+		'type' 			=> 'mysqli',
+		'connection' 	=> array(
+			'persistent' => false
+		),
+		'identifier' 	=> '`',
+		'table_prefix' 	=> 'cf_',
+		'charset' 		=> 'utf8',
+		'enable_cache' 	=> true,
+		'profiling' 	=> false,
+	),
 );
