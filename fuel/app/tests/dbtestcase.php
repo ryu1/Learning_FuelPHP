@@ -31,6 +31,11 @@ abstract class DbTestCase extends TestCase
 		// $this->dbfixt('table1', 'table2', ...)という形式もサポート
 		$tables = is_string($tables) ? func_get_args() : $tables;
 
+		foreach (array_reverse($tables, true) as $table => $file)
+		{
+			DbFixture::empty_table($table);
+		}
+
 		foreach ($tables as $table => $file)
 		{
 			$fixt_name = $file . '_fixt';

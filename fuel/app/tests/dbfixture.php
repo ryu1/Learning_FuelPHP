@@ -29,7 +29,7 @@ class DbFixture
 		$data = \Fuel\Core\Format::forge($data, static::$file_type)->to_array();
 
 		// テーブルのデータを削除
-		static::empty_table($table);
+		//static::empty_table($table);
 
 		// フィクスチャデータの挿入
 		foreach ($data as $row)
@@ -43,11 +43,12 @@ class DbFixture
 	}
 
 	// テーブルのデータを削除
-	protected static function empty_table($table)
+	public static function empty_table($table)
 	{
 		if (\Fuel\Core\DBUtil::table_exists($table))
 		{
-			\Fuel\Core\DBUtil::truncate_table($table);
+//			\Fuel\Core\DBUtil::truncate_table($table);
+			\Fuel\Core\DB::delete($table)->execute();
 		}
 		else
 		{
